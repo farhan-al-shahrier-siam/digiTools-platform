@@ -59,7 +59,7 @@ const Navbar = () => {
                     </div>
 
                     <a className="btn btn-ghost" href="">Login</a>
-                    <a className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full">Get Started</a>
+                    <a className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white">Get Started</a>
                 </div>
             </div>
         </div>
