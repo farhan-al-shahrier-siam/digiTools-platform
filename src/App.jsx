@@ -2,6 +2,7 @@ import "./App.css";
 import Banner from "./components/Banner/Banner";
 import Navbar from "./components/Navbar/Navbar";
 import StatusSection from "./components/StatusSection/StatusSection";
+import StepsSection from "./components/StepsSection/StepsSection";
 
 function App() {
     return (
@@ -11,6 +12,8 @@ function App() {
           <Banner></Banner>
 
           <StatusSection></StatusSection>
+
+          <StepsSection></StepsSection>
         </>
     );
 }
