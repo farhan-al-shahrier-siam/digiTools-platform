@@ -1,6 +1,7 @@
 import "./App.css";
 import Banner from "./components/Banner/Banner";
 import Navbar from "./components/Navbar/Navbar";
+import PricingSection from "./components/PricingSection/PricingSection";
 import StatusSection from "./components/StatusSection/StatusSection";
 import StepsSection from "./components/StepsSection/StepsSection";
 
@@ -14,6 +15,8 @@ function App() {
           <StatusSection></StatusSection>
 
           <StepsSection></StepsSection>
+
+          <PricingSection></PricingSection>
         </>
     );
 }
