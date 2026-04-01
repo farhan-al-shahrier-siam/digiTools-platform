@@ -30,7 +30,7 @@ const Products = ({ productPromise, cartProducts, setCartProducts }) => {
                         ))}
                     </div>
                 ) : (
-                    <Cart cartProducts={cartProducts}></Cart>
+                    <Cart cartProducts={cartProducts} setCartProducts={setCartProducts}></Cart>
                 )}
             </div>
         </div>

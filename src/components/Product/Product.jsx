@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { IoMdDoneAll } from "react-icons/io";
+import { toast } from "react-toastify";
 
 const Product = ({ product, cartProducts, setCartProducts }) => {
 
@@ -8,6 +9,7 @@ const Product = ({ product, cartProducts, setCartProducts }) => {
         const tempCartProducts = cartProducts.filter(singleProduct => singleProduct.id !==product.id)
         setCartProducts([...tempCartProducts, product])
         setBuyNowText(false)
+        toast.warning(`${product.name} Added to cart...`)
     }
 
     // console.log(product);
