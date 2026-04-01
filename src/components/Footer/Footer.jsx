@@ -17,9 +17,9 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="bg-black p-28">
-                <div className="text-white grid grid-cols-6 items-start justify-between container mx-auto gap-12">
-                    <div className="col-span-2">
+            <div className="bg-black p-4 md:p-28">
+                <div className="text-white grid grid-cols-2 md:grid-cols-6 md:items-start md:justify-between md:container md:mx-auto gap-12">
+                    <div className="md:col-span-2">
                         <h2 className="font-extrabold text-4xl mb-4">DigiTools</h2>
                         <p>Premium digital tools for creators, professionals, and businesses. Work smarter with our suite of powerful tools.</p>
                     </div>
@@ -55,7 +55,7 @@ const Footer = () => {
                 </div>
                 <div className="text-white flex justify-between border-t border-gray-600 mt-20 pt-5">
                     <p>© 2026 Digitools. All rights reserved.</p>
-                    <div className="flex gap-5">
+                    <div className="md:flex gap-5">
                         <p>Privacy Policy</p>
                         <p>Terms of Service</p>
                         <p>Cookies</p>

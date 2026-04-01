@@ -1,0 +1,96 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Resume Kit",
+    "description": "Perfect for beginners to create clean and professional resumes.",
+    "price": 10,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["10+ templates", "Basic customization", "Export to PDF"],
+    "icon": "📝"
+  },
+  {
+    "id": 2,
+    "name": "Pro Resume Builder",
+    "description": "Advanced resume builder with ATS-friendly templates.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF", "Custom sections"],
+    "icon": "⭐"
+  },
+  {
+    "id": 3,
+    "name": "Career Booster Pack",
+    "description": "All-in-one solution for resumes, cover letters, and portfolios.",
+    "price": 19.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Resume + Cover Letter", "Portfolio builder", "Premium templates"],
+    "icon": "🚀"
+
+  },
+  {
+    "id": 4,
+    "name": "Ultimate Job Suite",
+    "description": "Complete toolkit for job seekers with AI suggestions.",
+    "price": 49.99,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["AI resume suggestions", "Job tracking", "Unlimited downloads"],
+    "icon": "💼"
+
+  },
+  {
+    "id": 5,
+    "name": "Freelancer Portfolio Kit",
+    "description": "Showcase your work with stunning portfolio templates.",
+    "price": 14.99,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Portfolio templates", "Custom domains", "SEO optimization"],
+    "icon": "🌍"
+
+  },
+  {
+    "id": 6,
+    "name": "Interview Prep Pro",
+    "description": "Prepare for interviews with AI mock sessions.",
+    "price": 7.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Mock interviews", "AI feedback", "Question bank"],
+    "icon": "🎤"
+
+  },
+  {
+    "id": 7,
+    "name": "Student Career Pack",
+    "description": "Designed for students entering the job market.",
+    "price": 4.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Internship templates", "Simple UI", "Quick export"],
+    "icon": "🎓"
+
+  },
+  {
+    "id": 8,
+    "name": "Executive Resume Suite",
+    "description": "Premium resumes for senior professionals.",
+    "price": 99.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Executive templates", "Personal branding", "Priority support"],
+    "icon": "👑"
+
+  }
+]

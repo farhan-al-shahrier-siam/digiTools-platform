@@ -1,25 +1,39 @@
+import { Suspense } from "react";
 import "./App.css";
 import Banner from "./components/Banner/Banner";
 import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
 import PricingSection from "./components/PricingSection/PricingSection";
+import Products from "./components/Products/Products";
 import StatusSection from "./components/StatusSection/StatusSection";
 import StepsSection from "./components/StepsSection/StepsSection";
+import Loader from "./components/Loader/Loader";
+
+const fetchProduct = async () => {
+    const res = await fetch("/data.json");
+    return res.json();
+};
 
 function App() {
+    const productPromise = fetchProduct();
+
     return (
         <>
-          <Navbar></Navbar>
+            <Navbar></Navbar>
 
-          <Banner></Banner>
+            <Banner></Banner>
 
-          <StatusSection></StatusSection>
+            <StatusSection></StatusSection>
 
-          <StepsSection></StepsSection>
+            <Suspense fallback={<Loader></Loader>}>
+                <Products productPromise={productPromise}></Products>
+            </Suspense>
 
-          <PricingSection></PricingSection>
+            <StepsSection></StepsSection>
 
-          <Footer></Footer>
+            <PricingSection></PricingSection>
+
+            <Footer></Footer>
         </>
     );
 }
