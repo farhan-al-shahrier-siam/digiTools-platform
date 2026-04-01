@@ -1,7 +1,7 @@
 import React from "react";
 import { HiMiniShoppingCart } from "react-icons/hi2";
 
-const Navbar = () => {
+const Navbar = ({ cartProducts }) => {
     return (
         <div className="container mx-auto">
             <div className="navbar bg-base-100 shadow-sm">
@@ -55,10 +55,12 @@ const Navbar = () => {
                 <div className="navbar-end space-x-2">
                     <div className="relative inline-block">
                         <HiMiniShoppingCart className="text-2xl" />
-                        <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs font-bold px-1 rounded-full">0</span>
+                        <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs font-bold px-1 rounded-full">{cartProducts.length===0? "": cartProducts.length}</span>
                     </div>
 
-                    <a className="btn btn-ghost" href="">Login</a>
+                    <a className="btn btn-ghost" href="">
+                        Login
+                    </a>
                     <a className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white">Get Started</a>
                 </div>
             </div>
