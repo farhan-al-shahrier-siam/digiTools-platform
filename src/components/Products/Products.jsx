@@ -1,5 +1,6 @@
 import React, { use, useState } from "react";
 import Product from "../Product/Product";
+import Cart from "../Cart/Cart";
 
 const Products = ({ productPromise, cartProducts, setCartProducts }) => {
     const products = use(productPromise);
@@ -29,7 +30,7 @@ const Products = ({ productPromise, cartProducts, setCartProducts }) => {
                         ))}
                     </div>
                 ) : (
-                    <h1 className="text-center text-5xl">Under Constraction</h1>
+                    <Cart cartProducts={cartProducts}></Cart>
                 )}
             </div>
         </div>
